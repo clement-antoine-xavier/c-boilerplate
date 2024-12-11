@@ -22,7 +22,7 @@ BIN = $(BINARY_DIR)/$(NAME)
 MAIN_SOURCES = ./main.c
 
 TESTS_SOURCES_DIR = ./tests
-TESTS_OBJ_DIR = ./obj/tests
+TESTS_OBJ_DIR = $(OBJ_DIR)/tests
 
 TESTS_SOURCES = $(shell find $(TESTS_SOURCES_DIR) -type f -regex ".*\.c")
 TESTS_OBJ = $(TESTS_SOURCES:$(TESTS_SOURCES_DIR)/%.c=$(TESTS_OBJ_DIR)/%.o)
