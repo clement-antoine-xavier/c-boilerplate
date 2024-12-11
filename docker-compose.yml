@@ -1,0 +1,6 @@
+services:
+  c-boilerplate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: c-boilerplate
