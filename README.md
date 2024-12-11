@@ -35,7 +35,7 @@ This repository provides a **C boilerplate template** designed to streamline the
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/c-boilerplate.git
+   git clone https://github.com/clement-antoine-xavier/c-boilerplate.git
    cd c-boilerplate
    ```
 
@@ -123,16 +123,3 @@ Feel free to fork this repository, create issues, and submit pull requests. Cont
 ## Acknowledgements
 
 This boilerplate template was created with best practices in mind, helping you build secure, efficient, and maintainable C applications. It's a starting point for building a wide variety of C projects, from simple applications to more complex systems.
-
-```
-
----
-
-### **Boilerplate Project Overview**:
-
-1. **Clone the Repository**: Simply clone the repo, and you're ready to start building your C project with security, performance, and testing tools integrated.
-2. **Automated Build**: The `Makefile` ensures that building, testing, and cleaning the project is straightforward.
-3. **Security and Optimizations**: Pre-configured compiler flags to protect your code and ensure optimized performance.
-4. **Code Quality**: Tools like `clang-tidy` for static analysis and `lcov` for code coverage are built-in for keeping your code clean and reliable.
-
-This should provide a solid foundation for any new C project you work on!
